@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid red;
+}
+
+html {
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+}
+
+/* Header #ffcf60 #5a3b91*/
+
+nav {
+  background-color: crimson;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 42px;
+  margin-left: 24px;
+  margin-right: 0.25rem;
+}
+
+nav .home a {
+  color: white;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+nav .home a span {
+  color: grey;
+  font-weight: 300;
+}
+
+nav .menu a {
+  display: inline;
+  padding: 1rem 0;
+  color: white;
+font-weight: 700;
+  text-decoration: none;
+  padding-right: 16px;
+}
