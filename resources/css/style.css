@@ -7,7 +7,7 @@
   html {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    background-color: 	#b22222;
+    background-color: #b22222;
   }
   /* Header */
 
@@ -18,7 +18,7 @@
     display: flex;
     z-index: 1;
     width: 100%;
-    background-color: 	#b22222;
+    background-color: #b22222;
     border-bottom: 2px solid black;
   }
 
@@ -85,7 +85,7 @@
     padding: 32px 24px;
   }
 
-   .banner-content {
+  .banner-content {
     width: 40%;
     line-height: 1.2;
     display: flex;
@@ -96,7 +96,6 @@
   .banner-content .txt-box {
     max-width: 100%;
     margin-left: 50px;
-
   }
 
   .banner-content h2 {
@@ -112,7 +111,6 @@
     font-weight: 600;
     padding-bottom: 32px;
   }
-
   /*.banner-content button {*/
 
   .banner-content button {
@@ -222,8 +220,7 @@
     font-size: 0.9rem;
     text-decoration: none;
   }
-
-/* GUEST LECTURE*/
+  /* GUEST LECTURE*/
 
   .info-section .right-column .silver-box {
     background-color: #b22222;
@@ -241,11 +238,11 @@
 
   .start-learning {
     display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding-bottom: 32px;
-background-color: #c0c0c0;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 32px;
+    background-color: #c0c0c0;
+  }
 
   .start-learning h1 {
     font-size: 2rem;
@@ -266,6 +263,23 @@ background-color: #c0c0c0;
     max-width: 400px;
   }
 
+  .study-field:hover {
+    position: relative;
+    background-color: #191970;
+    color: #b22222;
+    transition: all 1.2s ease-out 0.2s
+    }
+
+    .study-field:after {
+  display:block;
+  content:attr(title);
+  color:transparent;
+  overflow:hidden;
+  visibility:hidden;
+  border: 3px solid #b22222;
+
+}
+
   .course-text {
     max-width: 325px;
     display: block;
@@ -280,9 +294,9 @@ background-color: #c0c0c0;
 
   .thesis {
     display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 32px;
     background-color: #f5f5f5;
   }
   /* T-Header */
@@ -380,7 +394,7 @@ padding-bottom: 32px;
     align-items: center;
   }
 
-  footer nav span{
+  footer nav span {
     color: white;
     font-weight: 300;
     margin-left: 24px;
