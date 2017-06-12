@@ -1,12 +1,11 @@
   .container {
-    /*border: 1px solid black;*/
     width: 1440px;
     margin: 0 auto;
   }
 
   html {
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     background-color: #b22222;
   }
   /* Header */
@@ -101,7 +100,6 @@
   .banner-content h2 {
     width: 100%;
     font-size: 3rem;
-    /*padding-bottom: 32px;*/
     justify-content: center;
   }
 
@@ -111,27 +109,29 @@
     font-weight: 600;
     padding-bottom: 32px;
   }
-  /*.banner-content button {*/
 
-  .banner-content button {
-    width: 90%;
+  .banner-content a {
+    width: 80%;
     background-color: #b22222;
     text-align: center;
     padding: 16px;
     font-size: 1.125rem;
-    text-transform: uppercase;
     border: 3px solid #191970;
     border-radius: 5px;
     color: white;
     font-weight: 500;
-  }
+    text-decoration: none;
+}
 
-  .banner-content button:hover {
+  .banner-content a:hover {
     background-color: #191970;
     color: #b22222;
     border: 3px solid #b22222;
-    transition: all 1.2s ease-out 0.2s
+    text-transform: uppercase;
+    transition: all 0.5s ease-out 0.2s
   }
+
+
   /* Information Section */
   /* Main Topic */
 
@@ -154,20 +154,28 @@
     padding-right: 10px;
   }
 
-  .info-section .main-topic .text h2 {
+  .info-section .main-topic h1 {
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 24px;
+    color: #4A4A4A;
   }
 
-  .info-section .main-topic .text p {
+  .info-section .main-topic h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #4A4A4A;
+  }
+
+  .info-section .main-topic p {
     font-size: 0.95rem;
     color: #4A4A4A;
     line-height: 1.4;
     margin-bottom: 24px;
   }
 
-  .info-section .main-topic .text h4 {
+  .info-section .main-topic h4 {
     font-size: 0.8rem;
   }
   /* Extra Topics */
@@ -185,10 +193,6 @@
     border-left: 2px solid #b22222;
   }
 
-  .information .r-column .flex:last-child {
-    background-color: #D8D8D8;
-  }
-
   .info-section .right-column .small-img {
     width: 35%;
     height: auto;
@@ -203,36 +207,43 @@
     width: 65%;
   }
 
-  .info-section .right-column .text h2 {
-    font-size: 1.2rem;
+  .right-column h2 {
+    font-size: 1.6rem;
     color: #4A4A4A;
+    font-weight: 700;
+    line-height: 8px;
+  }
+
+  .right-column p {
+    color: #4A4A4A;
+    font-size: 1rem;
+    padding: 12px 0;
+    line-height: 1.2rem;
+  }
+
+  .right-column a {
+    font-size: 1rem;
     font-weight: 700;
   }
 
-  .info-section .right-column .text p {
-    color: #4A4A4A;
-    font-size: 0.9rem;
-    padding: 12px 0;
-    line-height: 1.4;
-  }
-
-  .info-section .right-column .text a {
-    font-size: 0.9rem;
-    text-decoration: none;
-  }
-  /* GUEST LECTURE*/
-
-  .info-section .right-column .silver-box {
+  .small-info-1:hover {
     background-color: #b22222;
+    transition: all 0.50s ease-out 0.2s;
   }
 
-  .info-section .right-column .silver-box .white-txt {
+  .small-info-1:hover h2 {
     color: white;
+    transition: all 0.50s ease-out 0.2s;
   }
 
-  .info-section .right-column .silver-box a {
-    background-color: white;
-    padding: 0.5rem;
+  .small-info-1:hover p {
+    color: white;
+    transition: all 0.50s ease-out 0.2s;
+  }
+
+  .small-info-1:hover a {
+    color: white;
+    transition: all 0.50s ease-out 0.2s;
   }
   /* START LEARNING */
 
@@ -267,18 +278,17 @@
     position: relative;
     background-color: #191970;
     color: #b22222;
-    transition: all 1.2s ease-out 0.2s
-    }
+    transition: all 0.6s ease-out 0.2s
+  }
 
-    .study-field:after {
-  display:block;
-  content:attr(title);
-  color:transparent;
-  overflow:hidden;
-  visibility:hidden;
-  border: 3px solid #b22222;
-
-}
+  .study-field:after {
+    display: block;
+    content: attr(title);
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+    border: 3px solid #b22222;
+  }
 
   .course-text {
     max-width: 325px;
@@ -356,30 +366,33 @@
     width: 65%;
   }
 
-  .thesis .right-column .text h2 {
+  .thesis .right-column h2 {
     font-size: 1.2rem;
     color: #4A4A4A;
     font-weight: 700;
   }
 
-  .thesis .right-column .text p {
+  .thesis .right-column p {
     color: #4A4A4A;
     font-size: 0.9rem;
     padding: 12px 0;
-    line-height: 1.2;
+    line-height: 1.6;
   }
 
-  .thesis .right-column .text a {
-    font-size: 0.9rem;
-    text-decoration: none;
-  }
-
-  .thesis .right-column .silver-box {
+  .small-info-2:hover {
     background-color: #b22222;
+    color: white;
+    transition: all 0.50s ease-out 0.2s;
   }
 
-  .thesis .right-column .silver-box .white-txt {
+  .small-info-2:hover p {
     color: white;
+    transition: all 0.50s ease-out 0.2s;
+  }
+
+  .small-info-2:hover h2 {
+    color: white;
+    transition: all 0.50s ease-out 0.2s;
   }
   /* Footer */
 
