@@ -26,62 +26,67 @@
       /* Header */
 
       header {
-  height: 4rem;
-  position: fixed;
-  top: 0;
-  display: flex;
-  z-index: 1;
-  width: 100%;
-  background-color: #b22222;
-  border-bottom: 2px solid black;
-}
+        height: 4rem;
+        position: fixed;
+        top: 0;
+        display: flex;
+        z-index: 1;
+        width: 100%;
+        background-color: #b22222;
+        border-bottom: 2px solid black;
+      }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-}
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
 
-nav div {
-  display: flex;
-  align-items: center;
-}
+      nav div {
+        display: flex;
+        align-items: center;
+      }
 
-nav img {
-  height: 42px;
-  margin-left: 24px;
-  margin-right: 0.25rem;
-}
+      nav img {
+        height: 42px;
+        margin-left: 24px;
+        margin-right: 0.25rem;
+      }
 
-nav .home a {
-  color: white;
-  text-decoration: none;
-  padding-right: 2rem;
-  font-weight: 500;
-}
+      nav .home a {
+        color: white;
+        text-decoration: none;
+        padding-right: 2rem;
+        font-weight: 500;
+      }
 
-nav .home a:hover {
-  color: #191970;
-  transition: color 0.5s ease-out 0.2s;
-}
+      nav .home a:hover {
+        color: #191970;
+        transition: color 0.5s ease-out 0.2s;
+      }
 
-nav .home a span {
-  color: silver;
-  font-weight: 300;
-}
+      nav .home a span {
+        color: silver;
+        font-weight: 300;
+      }
 
-nav .menu a {
-  display: inline;
-  padding: 1rem 0;
-  color: white;
-  font-weight: 900;
-  text-decoration: none;
-  padding-right: 16px;
-}
+      nav .menu a {
+        display: inline;
+        padding: 1rem 0;
+        color: white;
+        font-weight: 900;
+        text-decoration: none;
+        padding-right: 16px;
+      }
 
-nav .menu a:hover {
-  color: #191970;
-  transition: color 0.5s ease-out 0.2s
-}
+      .mobile {
+        display: none;
+      }
+
+      nav .menu a:hover {
+        color: #191970;
+        transition: color 0.5s ease-out 0.2s
+      }
+
       nav .menu-desktop a:hover {
         color: #191970;
         transition: color 0.5s ease-out 0.2s
@@ -94,13 +99,10 @@ nav .menu a:hover {
           width: 100%;
           border-bottom: none;
         }
-        nav .home {
+        .desktop {
           display: none;
         }
-        .menu-desktop {
-          display: none;
-        }
-        .menu-mobile {
+        .mobile {
           display: flex;
         }
       }
