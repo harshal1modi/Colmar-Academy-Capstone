@@ -4,36 +4,54 @@
 <head>
   <meta charset="utf-8">
   <title>Colmar Academy</title>
+  <link href="./resources/css/reset.css" type="reset/css" rel="stylesheet">
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
   <header>
-    <nav class="container">
+     <nav class="container">
 
-      <div class="home">
-        <img src="./resources/images/ic-logo-white.svg">
-        <a href="#home"><h2>COLMAR<span>ACADEMY</span></h2>
-</div>
+       <div class="home">
+         <img src="./resources/images/ic-logo-white.svg">
+         <a href="#home"><h2>COLMAR<span>ACADEMY</span></h2>
+ </div>
 
-<div class="menu">
-    <ul>
-        <ls><a href="#on-campus"> On Campus</a></ls>
-        <ls><a href="#online"> Online</a></ls>
-        <ls><a href="#companies"> For Companies</a></ls>
-        <ls><a href="#sign-in"> Sign In</a></ls>
-        </ul>
+ <div class="menu">
+     <ul>
+         <ls><a href="#on-campus"> On Campus</a></ls>
+         <ls><a href="#online"> Online</a></ls>
+         <ls><a href="#companies"> For Companies</a></ls>
+         <ls><a href="#sign-in"> Sign In</a></ls>
+         </ul>
+       </div>
+     </nav>
+
+   </header>
+
+
+
+     <!-- <div class="menu-mobile">
+        <div class="home">
+          <img src="./resources/images/ic-logo-white.svg">
+          <a href="#home"><h2>COLMAR<span>ACADEMY</span></h2>
       </div>
-    </nav>
+      <ul>
+        <ls><a href="#index.html"><img src="./resources/images/ic-logo-white.svg" alt="academy logo"></a></ls>
+          <li><a href="#on-campus"><img src="./resources/images/ic-on-campus.svg"></a></li>
+          <li><a href="#online"><img src="./resources/images/ic-online.svg"></a></li>
+          <li><a href="#sign-in"><img src="./resources/images/ic-login.svg"></a></li>
+          </ul>
+        </div>
+    </nav>-->
 
-  </header>
 
   <!-- Banner Section -->
 
   <section class="banner container">
 
-    <!--<div class="img-container box">-->
     <picture>
       <img src="./resources/images/banner.jpg" alt="friends studying together">
     </picture>
@@ -75,6 +93,10 @@
         <picture class="small-img">
           <img src="resources/images/information-orientation.jpg">
         </picture>
+
+        <picture class="mobile">
+          <img src="resources/images/information-orientation-mobile.jpg">
+        </picture>
         <div class="text">
           <h2>Orientation date</h2>
           <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -86,6 +108,9 @@
         <picture class="small-img">
           <img src="./resources/images/information-campus.jpg">
         </picture>
+        <picture class="mobile">
+          <img src="resources/images/information-campus-mobile.jpg">
+        </picture>
         <div class="text">
           <h2>Our Campus</h2>
           <p>Find which campus is close by you</p>
@@ -93,14 +118,18 @@
         </div>
       </div>
 
-
-      <div class="small-info-1">  <!--</a> -->
+      <div class="small-info-1">
+        <!--</a> -->
         <picture class="small-img">
           <img src="./resources/images/information-guest-lecture.jpg">
         </picture>
+        <picture class="mobile">
+          <img src="resources/images/information-guest-lecture-mobile.jpg">
+        </picture>
         <div class="text">
           <h2>Our guest lecture</h2>
-          <p>Join a keynote with Oliver Sack<br>about music in medical treatment</br></p>
+          <p>Join a keynote with Oliver Sack<br>about music in medical treatment</br>
+          </p>
           <a href="#read-more">Read more</a>
         </div>
       </div>
@@ -180,8 +209,8 @@
           <p>Courses</p>
           <p>Analytics, Content Marketing, Mobile Marketing</p>
         </div>
-</div>
       </div>
+    </div>
   </section>
 
   <!-- Thesis Exhibit -->
